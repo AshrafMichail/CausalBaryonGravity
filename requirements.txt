@@ -1,0 +1,9 @@
+astropy>=6,<8
+camb>=1.6,<2
+matplotlib>=3.9,<4
+numpy>=1.26,<3
+pandas>=2.2,<3
+pypdf>=6,<7
+reproject>=0.13,<1
+scipy>=1.13,<2
+
