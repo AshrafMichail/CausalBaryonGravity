@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Causal Baryon Gravity Validation Suite"
+type: software
+authors:
+  - family-names: "Michail"
+    given-names: "Ashraf"
+repository-code: "https://github.com/AshrafMichail/CausalBaryonGravity"
+url: "https://github.com/AshrafMichail/CausalBaryonGravity"
+license: "MIT"
+date-released: 2026-08-18
+keywords:
+  - "causal baryon gravity"
+  - "galaxy dynamics"
+  - "cosmology"
+  - "validation"
+  - "scientific software"
+preferred-citation:
+  type: software
+  title: "Causal Baryon Gravity Validation Suite"
+  authors:
+    - family-names: "Michail"
+      given-names: "Ashraf"
+  year: 2026
+  repository-code: "https://github.com/AshrafMichail/CausalBaryonGravity"
