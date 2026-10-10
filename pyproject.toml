@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causal-baryon-gravity"
+version = "0.2.0"
+description = "Closed-form spherical weak-field Causal Baryon Gravity effective framework"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Ashraf Michail"}]
+dependencies = [
+  "matplotlib>=3.9,<4",
+  "numpy>=1.26,<3",
+  "scipy>=1.13,<2",
+]
+
+[project.scripts]
+cbg-effective = "causal_baryon_gravity.cli:main"
+
+[tool.setuptools.package-data]
+causal_baryon_gravity = ["data/*.json"]

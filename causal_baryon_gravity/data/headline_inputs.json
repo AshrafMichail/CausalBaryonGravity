@@ -1,0 +1,28 @@
+{
+  "sparc": {
+    "radii": 3389,
+    "galaxies": 175,
+    "cbg_squared_error_sum_km2_s2": "1763500.791281550279059261040336",
+    "canonical_squared_error_sum_km2_s2": "1762901.408600268197493527541236"
+  },
+  "bullet": {
+    "centroid_numerator_kpc": 86.639275,
+    "centroid_denominator": 1.0,
+    "aperture_deviance_contributions": [1.2, 1.457774]
+  },
+  "clusters": {
+    "held_map_correlations": [0.7, 0.77935],
+    "hff_correlations": [0.674837, 0.711004, 0.802113],
+    "a520_correlations": [0.481154, 0.620331, 0.733502]
+  },
+  "cosmology_transfer_adapter": {
+    "omega_b": 0.02238,
+    "omega_resp": 0.12,
+    "neutrino_mass_ev": 0.06,
+    "ev_per_omega_nu": 93.14
+  },
+  "df2_df4": {
+    "df2_fixed_law_variance_km2_s2": 445.800531492121,
+    "df4_fixed_law_variance_km2_s2": 390.368329423081
+  }
+}
