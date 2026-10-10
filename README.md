@@ -32,10 +32,16 @@ hide that conversion inside the force law.
 
 ## Local setup, test, and run
 
-These commands work from a clean clone of this PR branch and do not require
-files from a manuscript repository:
+These commands work from a clean clone and do not require files from a
+manuscript repository. Because this package is currently on an unmerged PR
+branch, check out that branch first:
 
 ```bash
+git clone https://github.com/AshrafMichail/CausalBaryonGravity.git
+cd CausalBaryonGravity
+git fetch origin ashrafmichail-sync-effective-framework
+git switch --track origin/ashrafmichail-sync-effective-framework
+
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install --upgrade pip
